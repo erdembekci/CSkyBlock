@@ -1,0 +1,162 @@
+name: CSkyBlock
+main: world.bentobox.cskyblock.CSkyBlock
+version: ${version}${build.number}
+api-version: 1.14
+metrics: true
+icon: "OAK_SAPLING"
+repository: "BentoBoxWorld/CSkyBlock"
+
+authors: tastybento
+
+permissions:    
+  cskyblock.island:
+   description: Allow island command usage
+   default: true
+  cskyblock.island.create:
+    description: Allow island creation
+    default: true
+  cskyblock.island.home:
+    description: Allow teleporting to player island
+    default: true
+  cskyblock.island.sethome:
+    description: Let the player use the sethome command
+    default: true
+  cskyblock.island.info:
+    description: Let the player use the island info command
+    default: true
+  cskyblock.island.lock:
+    description: Allows island locking
+    default: true
+  cskyblock.island.near:
+    description: Players can see nearby island names
+    default: true
+  cskyblock.island.expel:
+    description: Allows expelling of visitors
+    default: true
+  cskyblock.island.ban:
+    description: Allows banning of visitors
+    default: true
+  cskyblock.island.settings:
+    description: Player can see server settings
+    default: true
+  cskyblock.island.language:
+    description: Player can select a language
+    default: true
+  cskyblock.island.name:
+    description: Player can set the name of their island
+    default: true
+  cskyblock.island.spawn:
+    description: Player can use the island spawn command if spawn exists
+    default: true
+  cskyblock.island.reset:
+    description: Player can use the island reset or restart command
+    default: true  
+  cskyblock.island.team:
+    description: Let a player use team command
+    default: true
+  cskyblock.island.team.setowner:
+    description: Let a player change the team owner
+    default: true
+  cskyblock.island.team.invite:
+    description: Let a player invite others
+    default: true
+  cskyblock.island.team.reject:
+    description: Let a player reject invites
+    default: true
+  cskyblock.island.team.leave:
+    description: Let a player leave the team
+    default: true
+  cskyblock.island.team.kick:
+    description: Let a player kick team members
+    default: true
+  cskyblock.island.team.accept:
+    description: Let a player accept invitations
+    default: true
+  cskyblock.island.team.trust:
+    description: Let a player use team trust commands
+    default: true
+  cskyblock.island.team.coop:
+    description: Let a player use team coop commands
+    default: true
+  cskyblock.island.team.promote:
+    description: Let a player use promote commands
+    default: true
+  cskyblock.settings.*:
+    description: Allow use of settings on island
+    default: true
+  cskyblock.mod.info:
+    description: Let a moderator see info on a player
+    default: op
+  cskyblock.mod.clearreset:
+    description: Allow clearing of island reset limit
+    default: false
+  cskyblock.mod.bypasscooldowns:
+    description: Allow moderator to bypass cooldowns
+    default: op
+  cskyblock.mod.bypassdelays:
+    description: Allow moderator to bypass delays
+    default: op
+  cskyblock.mod.bypassprotect:
+    description: Allow moderator to bypass island protection
+    default: op
+  cskyblock.mod.bypassexpel:
+    description: Allow moderator to bypass island expulsion
+    default: op
+  cskyblock.mod.switch:
+    description: Allows moderator to switch bypass protection on and off
+    default: op
+  cskyblock.mod.lock:
+    description: Locks or unlocks an island
+    default: op
+  cskyblock.mod.bypasslock:
+    description: Bypasses an island lock
+    default: op
+  cskyblock.mod.bypassban:
+    description: Bypasses island ban
+    default: op  
+  cskyblock.mod.team:
+    description: Enables modification of teams via kick and add commands
+    default: false
+  cskyblock.admin.tp:
+    description: Allows teleport to an island
+    default: op    
+  cskyblock.admin.clearresetall:
+    description: Allow clearing of island reset limit of all players
+    default: op
+  cskyblock.admin.reload:
+    description: Reload the config.yml
+    default: op
+  cskyblock.admin.delete:
+    description: Let a player completely remove a player (including island)
+    default: op
+  cskyblock.admin.register:
+    description: Let a player register the nearest island to another player.
+    default: op
+  cskyblock.admin.unregister:
+    description: Removes a player from an island without deleting the island blocks.
+    default: op
+  cskyblock.admin.setspawn:
+    description: Allows use of spawn tools
+    default: op
+  cskyblock.admin.setrange:
+    description: Allows setting of island protection range
+    default: op
+  cskyblock.admin.settingsreset:
+    description: Resets all the islands to default protection settings
+    default: op
+  cskyblock.admin.noban:
+    description: Player cannot be banned from an island
+    default: op
+  cskyblock.admin.noexpel:
+    description: Player cannot be expelled from an island
+    default: op
+  cskyblock.admin.setlanguage:
+    description: Resets all player languages and sets the default language
+    default: op
+  cskyblock.admin.getrank:
+    description: Get a player's rank
+    default: op
+  cskyblock.admin.setrank:
+    description: Set a player's rank
+    default: op
+    

@@ -1,0 +1,6 @@
+name: CSkyBlock
+main: world.bentobox.cskyblock.CopyToBentoBox
+version: ${version}
+description: A Multiple SkyBlock Plugin
+author: tastybento
+depend: [BentoBox]
