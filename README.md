@@ -1,4 +1,4 @@
-*CSkyBlock
+CSkyBlock
 ==========
 [![Build Status](https://ci.codemc.org/buildStatus/icon?job=BentoBoxWorld/BSkyBlock)](https://ci.codemc.org/job/BentoBoxWorld/job/BSkyBlock/)
 [![Lines Of Code](https://sonarcloud.io/api/project_badges/measure?project=world.bentobox%3Abskyblock&metric=ncloc)](https://sonarcloud.io/component_measures?id=world.bentobox%3Abskyblock&metric=ncloc)
