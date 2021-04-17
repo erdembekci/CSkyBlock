@@ -1,3 +1,4 @@
+
 CSkyBlock
 ==========
 [![Build Status](https://ci.codemc.org/buildStatus/icon?job=BentoBoxWorld/BSkyBlock)](https://ci.codemc.org/job/BentoBoxWorld/job/BSkyBlock/)
@@ -10,8 +11,12 @@ CSkyBlock
 # NOTE
 CSkyBlock requires BentoBox, so to run CSkyBlock, you must have BentoBox installed and place CSkyBlock in BentoBox's addon folder.
 
+SkyBlock can also be operated without SkyBlock. 
+
 ## About
 CSkyBlock provides a skyblock-type Minecraft game for players that supports a default set of 3 islands (overworld, nether and end), protection of islands, team and coop play and other features. Please see the config.yml for all the settings.
+
+SkyBlock is designed to be used for two different modes (Like OP SkyBlock + Labor SkyBlock) on the same server.
 
 ## Installation
 
@@ -38,4 +43,3 @@ CSkyBlock is an add-on that uses the BentoBox API. Here are some other ones that
 Bugs and Feature requests
 =========================
 File bug and feature requests here: https://github.com/BentoBoxWorld/BSkyBlock/issues
-**
